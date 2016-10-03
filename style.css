@@ -1,0 +1,100 @@
+@import 'https://fonts.googleapis.com/css?family=Sacramento';
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+body {
+	font-family: "Raleway";
+	font-size: 11pt;
+	color: #888;
+	text-align: center;
+	background: url('./grid-background.png');
+}
+
+img {
+	position: absolute;
+	right: 63%;
+	bottom: 40%;
+}
+
+#outer-container {
+	position: absolute;
+	width: 36%;
+	top: 15%;
+	left: 32%;
+	background-color: #FFF;
+	border: 3px double #EEE;
+}
+
+#outer-container:after {
+	content: '';
+	display: block;
+	height: 20px;
+	width: 100%;
+}
+
+#outer-container:before {
+	content: '';
+	display: block;
+	height: 15px;
+	width: 100%;
+}
+
+#title {
+	border-bottom: 1px solid #EEE;
+	width: 80%;
+	left: 10%;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 36pt;
+	font-family: "Sacramento", cursive;
+	font-weight: 400;
+	line-height: 50px;
+	margin: 30px 15px 0px 15px;
+}
+
+p {
+	margin: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: #09F;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.lines {
+	position: static;
+	border-top: 1px solid #EEE;
+	border-bottom: 1px solid #EEE;
+	line-height: 2.5;
+	width: 80%;	
+	left: 10%;	
+	margin: 0 auto;
+}
+
+.card {
+	background-color: #FCE9E9;
+}
+
+.vert-text {
+	position: absolute;
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+	top: 16%;	
+	left: calc(69% + 5px);
+	font-size: 10pt;
+	color: #BBB;
+}
+
+#line {
+	margin-top: 6px;
+	margin-left: 10px;
+	float: right;
+	height: 1px;
+	background-color: #EEE;
+	width: 212px;
+}
